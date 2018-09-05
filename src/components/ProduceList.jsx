@@ -283,7 +283,7 @@ let produceList = {
 			{availableProduce.map((produce, index) =>
 			<Produce
 				month = {produce.month}
-				produce = {produce.selection}
+				selection = {produce.selection}
 				key = {index}
 				/>
 			)}

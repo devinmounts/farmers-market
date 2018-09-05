@@ -44,8 +44,7 @@ function MarketSchedule() {
   
   let scheduleDiv = {
     textAlign: 'center',
-    height: "100%",
-    
+    height: "100%"
   }
 
   let scheduleHeader = {
