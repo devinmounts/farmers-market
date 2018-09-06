@@ -3,10 +3,10 @@ import Produce from './Produce';
 
 function ProduceList() {
 
-    const availableProduce = [  
-        {  
+    const availableProduce = [
+        {
 			 month: 'January',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -17,9 +17,9 @@ function ProduceList() {
                 'Turnips'
 			 ]
         },
-        {  
+        {
 			 month: 'February',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -29,9 +29,9 @@ function ProduceList() {
                 'Potatoes'
 			 ]
         },
-        {  
+        {
 			 month: 'March',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -42,9 +42,9 @@ function ProduceList() {
                 'Potatoes'
 			 ]
         },
-        {  
+        {
 			 month: 'April',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -57,9 +57,9 @@ function ProduceList() {
                 'Potatoes'
 			 ]
         },
-        {  
+        {
 			 month: 'May',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -72,9 +72,9 @@ function ProduceList() {
                 'Radishes'
 			 ]
         },
-        {  
+        {
 			 month: 'June',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -94,9 +94,9 @@ function ProduceList() {
                 'Squash'
 			 ]
         },
-        {  
+        {
 			 month: 'July',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -130,9 +130,9 @@ function ProduceList() {
                 'Turnips'
 			 ]
         },
-        {  
+        {
 			 month: 'August',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Apricots',
                 'Blackberries',
@@ -170,9 +170,9 @@ function ProduceList() {
                 'Turnips'
 			 ]
         },
-        {  
+        {
 			 month: 'September',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Blueberries',
                 'Grapes',
@@ -204,9 +204,9 @@ function ProduceList() {
                 'Turnips'
 			 ]
         },
-        {  
+        {
 			 month: 'October',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Grapes',
                 'Hazelnuts',
@@ -237,9 +237,9 @@ function ProduceList() {
                 'Turnips'
 			 ]
         },
-        {  
+        {
 			 month: 'November',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -254,9 +254,9 @@ function ProduceList() {
                 'Turnips'
 			 ]
         },
-        {  
+        {
 			 month: 'December',
-			 selection: [  
+			 selection: [
                 'Apples',
                 'Hazelnuts',
                 'Pears',
@@ -273,6 +273,7 @@ function ProduceList() {
     ];
 
     let produceList = {
+        paddingTop: '105px',
         textAlign: 'center',
         height: '100%'
     };
